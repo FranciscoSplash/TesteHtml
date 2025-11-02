@@ -1,0 +1,172 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ 
+
+ *{
+    box-sizing: border-box;
+ }
+ body{
+    margin: 0;
+    font-family: "Roboto", serif;
+ }
+ .navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height:100px;
+    background: white;
+    justify-items: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+ }
+ .logo{
+    flex: 20%;
+    /*border: 1px solid red;*/
+    text-align: left;
+    margin-left: 10%;
+ }
+ .logo h1{
+    font-family: "Lobster", serif;
+    color:#180F4A;
+    font-size: 34px;
+ }
+ .menu{
+    flex: 70%;
+   /* border: 1px solid green;*/
+    text-align: right;
+    padding: 20px;
+ }
+ .menu a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+    color: #180f4a;
+ }
+ .menu a:hover{
+    border-top: 4px solid #180F4A;
+    color: #ff2978;
+ }
+ #saida{
+    background: #180F4A;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 10%;
+ }
+#saida:hover{
+    border: 2px solid #180F4A;
+    background: #ff2978;
+}
+ header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: white;
+    align-items: center;
+    padding: 100px;
+ }
+ .line{
+    flex: 40%;
+    margin-left: 10%;
+   
+
+ }
+ .line p{
+    color: gray;
+    text-align: left;
+ }
+ .header h2{
+    font-weight: 900;
+    font-size: 20px;
+    color:#180f4a
+ }
+ .img-line{
+    flex: 40;
+    margin-right: 10%;
+    /*border: 1px solid red;*/
+    text-align: center;
+ }
+ .contact-btn{
+    background: #ff2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+ }
+ .contact-btn:hover{
+    background: #180F4A;
+ }
+ .secao{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+ }
+ .secao h2{
+    font-size: 50px;
+    margin: 0;
+    font-family: "Lobster", serif;
+    font-weight: bold;
+    color: #180F4A;
+    width: 100%;
+ }
+ .servicos{
+    display: inline-block;
+    margin-top: 5%;
+
+ }
+ .card{
+    display: inline-block;
+    margin: 1%;
+    padding: 20px;
+    width: 30%;
+    border: 1px solid pink;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ .card:hover{
+    background: #ff2978;
+    padding: 40px;
+    color: white;
+ }
+ .card:hover img{
+    display: none;
+ }
+ .card:hover .card-te{
+    display: none;
+ }
+ .card:hover .te-card{
+    display: block;
+ }
+ .te-card{
+    display: none;
+ }
+
+ footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180F4a, #092422, black);
+    text-align: center;
+    border-top: 5px solid #ff2978;
+
+ }
+ .rodape{
+    padding: 100px;
+
+ }
+ .agencia{
+    font-family: "Lobster", serif;
+    color:white;
+    font-size: 34px;
+ }
+ .ins{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 60px;
+    
+ }

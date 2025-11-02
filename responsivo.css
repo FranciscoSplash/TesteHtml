@@ -1,0 +1,5 @@
+@media screen and (max-widh:1005){
+    .menu{
+        display: none;
+    }
+}
